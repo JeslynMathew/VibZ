@@ -83,7 +83,7 @@ Vibz/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/JeslynMathew/Vibz.git
+git clone https://github.com/JeslynMathew/VibZ.git
 
 cd project1
 ```
@@ -141,7 +141,7 @@ npm run dev
 Frontend runs on
 
 ```
-http://localhost:5173
+http://localhost:3000
 ```
 
 ---
@@ -189,7 +189,7 @@ http://localhost:5173
 ## Admin Dashboard
 
 
-![Admin Dashboard](images/adminDashBoard.png)
+![Admin Dashboard](images/adminDashboard.png)
 
 ---
 
