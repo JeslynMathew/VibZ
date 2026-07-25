@@ -15,7 +15,7 @@ server:
     include-message: always
     include-binding-errors: always
 app:
-  admin-email: "jeslyn.mathew20@gmail.com"
+  admin-email: ${ADMIN_URI:}
   upload-dir: ${UPLOAD_DIR:uploads}
   base-url: ${BASE_URL:http://localhost:8080}
   cors-origin: ${CORS_ORIGIN:http://localhost:3000}
