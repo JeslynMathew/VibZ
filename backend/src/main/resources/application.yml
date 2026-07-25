@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:}
+  servlet:
+    multipart:
+      max-file-size: ${MAX_FILE_SIZE:150MB}
+      max-request-size: ${MAX_REQUEST_SIZE:160MB}
+server:
+  port: ${PORT:8080}
+  tomcat:
+    max-http-form-post-size: ${MAX_HTTP_FORM_POST_SIZE:160MB}
+    max-swallow-size: ${MAX_SWALLOW_SIZE:160MB}
+  error:
+    include-message: always
+    include-binding-errors: always
+app:
+  admin-email: "jeslyn.mathew20@gmail.com"
+  upload-dir: ${UPLOAD_DIR:uploads}
+  base-url: ${BASE_URL:http://localhost:8080}
+  cors-origin: ${CORS_ORIGIN:http://localhost:3000}
